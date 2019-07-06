@@ -1,0 +1,6 @@
+*.el~
+*.el#
+.DS_Store
+.DS_/
+elpa/*
+auto-save-list
