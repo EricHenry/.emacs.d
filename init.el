@@ -40,7 +40,8 @@
  )
 
 ;; turn on line numbers
-(global-linum-mode t)
+;; (global-linum-mode t)
+(setq-default display-line-numbers 'relative) ;; turn on relative line numbers
 ;; get rid of the tool bar
 (tool-bar-mode -1)
 
